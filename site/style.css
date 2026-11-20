@@ -1,0 +1,18 @@
+body{margin:0;padding:0;background:#eceff1;color:#222;font-family:Arial,Helvetica,sans-serif;font-size:15px}
+#top{background:#2e7d32;color:#fff;padding:12px 10px;font-size:18px}
+#top a{float:right;color:#fff;font-size:14px;text-decoration:underline}
+.box{background:#fff;margin:10px;padding:12px;border:1px solid #ccc;-webkit-border-radius:4px;border-radius:4px}
+.small{font-size:12px;color:#555}
+.err{color:#c62828}
+.warn{background:#fff8e1;border-color:#ffb300;color:#6d4c00}
+input[type=password],input[type=text]{display:block;width:95%;padding:10px 2%;margin:8px 0;font-size:16px;border:1px solid #999;background:#fff}
+#q{width:91%;margin:0 10px 6px 10px}
+.chk{display:block;margin:6px 0 10px 0;font-size:14px}
+.btn{display:block;width:100%;padding:12px 0;background:#2e7d32;color:#fff;border:0;font-size:16px;font-weight:bold;text-align:center;text-decoration:none;-webkit-border-radius:3px;border-radius:3px;-webkit-appearance:none}
+.btn:active{background:#1b5e20}
+h2{font-size:14px;margin:16px 10px 4px 10px;color:#2e7d32;text-transform:uppercase}
+.item{background:#fff;margin:6px 10px;padding:10px;border:1px solid #ccc;-webkit-border-radius:4px;border-radius:4px}
+.name{font-weight:bold;font-size:15px;word-wrap:break-word}
+.meta{font-size:12px;color:#666;margin:3px 0 6px 0}
+.desc{font-size:13px;color:#333;margin:0 0 8px 0;word-wrap:break-word}
+.empty{text-align:center;color:#777;padding:20px}

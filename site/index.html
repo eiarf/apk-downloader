@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="robots" content="noindex, nofollow">
+<title>APK Saya</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="top"><b>APK Saya</b><a href="#" id="logout" style="display:none">Keluar</a></div>
+
+<div id="login" class="box">
+  <p>Masukkan password untuk melihat daftar APK.</p>
+  <form id="loginForm" action="#">
+    <input type="password" id="pw" placeholder="Password">
+    <label class="chk"><input type="checkbox" id="remember" checked> Ingat saya</label>
+    <input type="submit" id="btnLogin" class="btn" value="Masuk">
+  </form>
+  <p id="msg" class="err"></p>
+</div>
+
+<div id="main" style="display:none">
+  <div class="box small" id="info"></div>
+  <input type="text" id="q" placeholder="Cari aplikasi...">
+  <div id="list"></div>
+</div>
+
+<noscript><div class="box err">JavaScript harus aktif.</div></noscript>
+
+<script src="crypto.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
